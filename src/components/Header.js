@@ -15,7 +15,7 @@ console.log(quotes.length)
 
 //react
 const Header = ({state, fetchNewQuote}) => {
-	const {quote, author} = state
+	const {quote, author, color} = state
 	const newQuote = () => {
 		fetchNewQuote()
 	}
@@ -25,8 +25,8 @@ const Header = ({state, fetchNewQuote}) => {
 		//fetchNewQuote()
 	}, [])
 	return (
-		<header id='quote-box'>
-	      <div id='wrapper'>
+		<header id='quote-box' style={{backgroundColor: color}}>
+	      <div id='wrapper'  >
 	      	<div id='quote-text'>
 		        <span id='text' >{quote}</span>
 		    </div>
