@@ -4,7 +4,7 @@ import axios from 'axios';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider, connect } from 'react-redux';
 //import thunk from 'redux-thunk';
-import thunkMiddleware from 'redux-thunk'
+var ReduxThunk = require('redux-thunk').default
 //import logger from 'redux-logger'
 
 
@@ -47,7 +47,7 @@ const reducer = (state=initialState, action) => {
 	}
 }
 
-const store = createStore(reducer, applyMiddleware(thunkMiddleware));
+const store = createStore(reducer, applyMiddleware(ReduxThunk));
 
 //store.dispatch({ type: FETCH_DATA })
 /*fetch('http://quotes.stormconsultancy.co.uk/random.json')
