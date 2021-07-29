@@ -1,0 +1,13 @@
+@import 'mixins';
+
+header {
+	@include border(red);
+	text-align: center;
+	vertical-align: middle;
+	height: 100vh;
+
+	#wrapper {
+
+	transform: translateY(300%);
+	}
+}

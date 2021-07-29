@@ -1,0 +1,41 @@
+@mixin border($color) {
+	border: solid $color;
+}
+
+@mixin box-shadow($x, $y, $blur, $spread_color) {
+	-webkit-box-shadow: $x $y $blur $spread_color;
+	-moz-box-shadow: $x $y $blur $spread_color;
+	box-shadow: $x $y $blur $spread_color;
+}
+
+@mixin filter($function, $val) {
+	@if $function == brightness {
+		-webkit-filter: brightness($val);
+		-moz-filter: brightness($val);
+		filter: brightness($val);
+	} @else if $function == grayscale {
+		-webkit-filter: grayscale($val);
+		-moz-filter: grayscale($val);
+		filter: grayscale($val);
+	} @else if $function == drop-shadow {
+		-webkit-filter: drop-shadow($val);
+		-moz-filter: drop-shadow($val);
+		filter: drop-shadow($val);
+	} @else if $function == opacity {
+		-webkit-filter: opacity($val);
+		-moz-filter: opacity($val);
+		filter: opacity($val);
+	} @else if $function == invert {
+		-webkit-filter: invert($val);
+		-moz-filter: invert($val);
+		filter: invert($val);
+	} @else if $function == contrast {
+		-webkit-filter: contrast($val);
+		-moz-filter: contrast($val);
+		filter: contrast($val);
+	} @else if $function == saturate {
+		-webkit-filter: saturate($val);
+		-moz-filter: saturate($val);
+		filter: saturate($val);
+	}
+}

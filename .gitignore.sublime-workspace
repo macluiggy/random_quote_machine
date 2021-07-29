@@ -1,0 +1,1018 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"from"
+			],
+			[
+				"q",
+				"quotesReducer.jsx"
+			],
+			[
+				"red",
+				"reducers/"
+			],
+			[
+				"re",
+				"react-redux"
+			],
+			[
+				"quotre",
+				"quotesReducer.jsx"
+			],
+			[
+				"qu",
+				"quotes.json"
+			],
+			[
+				"quo",
+				"quotesReducer"
+			],
+			[
+				"reduc",
+				"reducers/"
+			],
+			[
+				"fet",
+				"fetchData"
+			],
+			[
+				"usee",
+				"useEffect"
+			],
+			[
+				"disp",
+				"dispatch"
+			],
+			[
+				"Red",
+				"ReduxThunk"
+			],
+			[
+				"dis",
+				"dispatch"
+			],
+			[
+				"rea",
+				"react-redux"
+			],
+			[
+				"con",
+				"const"
+			],
+			[
+				"c",
+				"createStore"
+			],
+			[
+				"i",
+				"@include"
+			],
+			[
+				"he",
+				"header.scss"
+			],
+			[
+				"a",
+				"<a"
+			],
+			[
+				"s",
+				"async"
+			],
+			[
+				"chanhe",
+				"CHANGE_HEIGHT"
+			],
+			[
+				"CHANGE",
+				"CHANGE_HEIGHT"
+			],
+			[
+				"chan",
+				"changeWidth"
+			],
+			[
+				"cha",
+				"changeWidthSize"
+			],
+			[
+				"res",
+				"RESET"
+			],
+			[
+				"dec",
+				"DECREMENT"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"useffct",
+				"useEffect"
+			],
+			[
+				"rese",
+				"RESET"
+			],
+			[
+				"decre",
+				"DECREMENT"
+			],
+			[
+				"tye",
+				"type"
+			],
+			[
+				"incre",
+				"increment"
+			],
+			[
+				"inc",
+				"increment"
+			],
+			[
+				"p",
+				"<p"
+			],
+			[
+				"cou",
+				"Counter"
+			],
+			[
+				"sub",
+				"submitNewMessage"
+			],
+			[
+				"reac",
+				"react-redux"
+			],
+			[
+				"redu",
+				"Redux"
+			],
+			[
+				"Redu",
+				"Redux2"
+			],
+			[
+				"addn",
+				"addNote"
+			],
+			[
+				"add",
+				"addNote"
+			],
+			[
+				"addno",
+				"addNoteText"
+			],
+			[
+				"useff",
+				"useEffect"
+			],
+			[
+				"us",
+				"useEffect"
+			],
+			[
+				"usre",
+				"useRef"
+			],
+			[
+				"modal",
+				"rules_modal"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"rulesmo",
+				"rules_modal_show"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"rul",
+				"image-rules.svg"
+			],
+			[
+				"bakc",
+				"background-image"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"setw",
+				"setWin"
+			],
+			[
+				"user",
+				"user_radial"
+			],
+			[
+				"bag",
+				"background"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"wit",
+				"wait"
+			],
+			[
+				"usef",
+				"useEffect"
+			],
+			[
+				"ses",
+				"setScore"
+			],
+			[
+				"pape",
+				"icon-paper.svg"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"gridtem",
+				"grid-template-columns"
+			],
+			[
+				"inl",
+				"@include"
+			],
+			[
+				"gri",
+				"grid"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"comp",
+				"Component"
+			],
+			[
+				"pre",
+				"prevState"
+			],
+			[
+				"compone",
+				"componentDidUpdate"
+			],
+			[
+				"compon",
+				"componentDidUpdate"
+			],
+			[
+				"local",
+				"localStorageKey"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"in",
+				"InputWithLabel"
+			],
+			[
+				"onl",
+				"onClick"
+			],
+			[
+				"ons",
+				"onSearchSubmit"
+			],
+			[
+				"handsu",
+				"handleSearchSubmit"
+			],
+			[
+				"onsub",
+				"onSearchSubmit"
+			],
+			[
+				"is",
+				"isLoading"
+			],
+			[
+				"onc",
+				"onClick"
+			],
+			[
+				"get",
+				"getRamdomNumber"
+			],
+			[
+				"asy",
+				"AsyncAwait"
+			],
+			[
+				"fetfa",
+				"STORIES_FETCH_FAILURE"
+			],
+			[
+				"STOR",
+				"STORIES_FETCH_SUCCESS"
+			],
+			[
+				"sa",
+				"searchTerm"
+			],
+			[
+				"useeff",
+				"useEffect"
+			],
+			[
+				"usca",
+				"UseCallback"
+			],
+			[
+				"Usered",
+				"UseReducer2"
+			],
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"butto",
+				"buttonValue"
+			],
+			[
+				"handle",
+				"handleFetch"
+			],
+			[
+				"handl",
+				"handleFetchStories"
+			],
+			[
+				"SETP",
+				"SET_POSTS"
+			],
+			[
+				"comm",
+				"SET_COMMENTS"
+			],
+			[
+				"FE",
+				"FETCH_SUCCESS"
+			],
+			[
+				"FET",
+				"FETCH_FAILED"
+			],
+			[
+				"loa",
+				"isLoading"
+			],
+			[
+				"aum",
+				"aumentar2"
+			],
+			[
+				"au",
+				"aumentar1"
+			],
+			[
+				"SOFE",
+				"STORIES_FETCH_FAILURE"
+			],
+			[
+				"init",
+				"initialU"
+			],
+			[
+				"ini",
+				"initialUsers"
+			],
+			[
+				"initi",
+				"initialUsers"
+			],
+			[
+				"use",
+				"users"
+			],
+			[
+				"uf",
+				"useEffect"
+			],
+			[
+				"usere",
+				"UseReducer4"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"Use",
+				"UseReducer"
+			],
+			[
+				"fun",
+				"funcomp"
+			],
+			[
+				"func",
+				"funcomp"
+			],
+			[
+				"Cou",
+				"Counter"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"sets",
+				"SET_STORIES"
+			],
+			[
+				"o",
+				"objectID"
+			],
+			[
+				"st",
+				"stories"
+			],
+			[
+				"setstor",
+				"SET_STORIES"
+			],
+			[
+				"store",
+				"storiesReducer"
+			],
+			[
+				"so",
+				"singleton"
+			],
+			[
+				"like",
+				"likeWomen"
+			],
+			[
+				"setIs",
+				"setIsError"
+			],
+			[
+				"if",
+				"ifmain"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"co",
+				"comedy"
+			],
+			[
+				"fil",
+				"filteredMovies"
+			],
+			[
+				"change",
+				"changeAge"
+			],
+			[
+				"inpu",
+				"inputRef"
+			],
+			[
+				"movie",
+				"movies"
+			],
+			[
+				"mov",
+				"movies"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"color",
+				"Color Highlight: Enable Color Highlighting"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"all",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"allf",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"allfi",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dia",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"packarepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: un",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"paena",
+				"Package Control: Enable Package"
+			],
+			[
+				"packains",
+				"Package Control: Install Package"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"toogle",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"comm",
+				"Command Prompt (new Window)"
+			],
+			[
+				"commpa",
+				"Command Prompt (panel)"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"packadis",
+				"Package Control: Disable Package"
+			],
+			[
+				"coma",
+				"Command Prompt (panel)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"instaa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Command Prompt (panel)"
+			],
+			[
+				"termike",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"git ba",
+				"Git Bash (panel)"
+			],
+			[
+				"comman",
+				"Command Prompt (panel)"
+			],
+			[
+				"terminus om",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"auto",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"toog",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"autos",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"packageins",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecoins",
+				"Package Control: Install Package"
+			],
+			[
+				"tabnine",
+				"⌬ tabnine: Open Configuration"
+			],
+			[
+				"intallpa",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrolins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+			"node -v",
+			"node",
+			"console.log('hello')",
+			"tsc -v"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/PROJECTS/random_quote_machine/public/index.html",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/PROJECTS/random_quote_machine/src/components/scss/header.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/raquomach/src/reducers/index.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/raquomach/src/reducers/quotesReducer.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/raquomach/src/components/quotes.json",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/PROJECTS/random_quote_machine/src/components/Header.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/PROJECTS/random_quote_machine/package.json",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/PROJECTS/random_quote_machine/src/App.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/PROJECTS/random_quote_machine/src/App.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/PROJECTS/random_quote_machine/src/index.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/src/App.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/src/index.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/src/components/Redux2.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/src/components/Redux1.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/src/components/Presentational.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/src/components/PresentationalHook.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/src/components/Contador.jsx",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/src/setupTests.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/react_and_redux/yarn.lock",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/App.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/aprendiendo-react/package-lock.json",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/aprendiendo-react/package.json",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/aprendiendo-react/.gitignore",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/aprendiendo-react/README.md",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/aprendiendo-react/src/App.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/App.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/index.css",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/public/index.html",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/index.html",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/components/scss/header.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/components/Header.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/README.md",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/components/scss/main.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/components/Main.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/components/scss/footer.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/components/Footer.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/09. bookmark-landing-page-master/my-app/README.md",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/08. static-job-listings-master/react-project/src/components/sass/_main.scss",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/includeBorder.sublime-snippet",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/09. bookmark-landing-page-master/my-app/src/components/sass/header.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/scss/main.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/scss/header.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/src/scss/main.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/rock-paper-scissors-master/my-app/style-guide.md",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/jquery-3.5.1.min.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/App.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/ComponentTypes.js",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/importClassComponent.sublime-snippet",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/ReactComponent.js",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/classComponent.sublime-snippet",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/App.css",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/JavaScript Patterns/snippets/for-in.sublime-snippet",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/importClassComponent.js",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/JavaScript/Snippets/function.sublime-snippet",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/funcomp.sublime-snippet",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/HookMigration.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/GIT/repository2/prueba2.py",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/GIT/repository2/ahead.py",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/UseCallback.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/UseCallback2.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/AsyncAwait.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/07. url-shortening-api-master/index.html",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/UseReducer3.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/UseReducer2.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/UseReducer4.js",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/console.log.sublime-snippet",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/console.log.sublime-snnipet",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/console.log.sublime-settings",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/index.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/estilos.css",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/function_component.sublime-snippet",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/UseReducer.js",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/useEffectSnippet.sublime-snippet",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/import_component.sublime-snippet",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/reducer.sublime-snippet",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/console.log",
+		"/C/Program Files/Sublime Text 3/Packages/auto-remove-sublime-license-popup",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/Killer Popup/killer.py",
+		"/C/Program Files/Sublime Text 3/Packages/Regular Expressions.sublime-package",
+		"/C/Program Files/Sublime Text 3/Packages/CSS.sublime-package",
+		"/C/Program Files/Sublime Text 3/Packages/Color Scheme - Default.sublime-package",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/GIT/repository2/behind.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/GIT/repository2/behind.py",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/GIT/repository1/remote_archive.py",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/GIT/repository1/prueba.py",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/Users.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/Filter.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/public/index.html",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/GIT/prueba.py",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/CODEWARS/equipos.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/Filter2.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/Users.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/PYTHON/python_work/git_practice/hello_git.py",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/CompuStore/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/like_REMOTE_2384.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/useRef.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/API.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/images.css",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/components/images.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/REACT/hacker-stories/src/PRACTICING.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/components/sass/header.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/components/header.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/index.html",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/README.md",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/components/articles.json",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/PORTAFOLIO/macluiggy.github.io/generic.html",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/index.css",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/App.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/components/main.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/components/sass/main.scss",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/index.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/main.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/src/components/images/icon-arrow.svg",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/room-homepage-master/my-app/public/index.html",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/FRONTEND MENTOR/09. bookmark-landing-page-master/my-app/src/App.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/javascript/Object Oriented Programming/02. Use Dot Notation to Access the Properties of an Object.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/javascript/Object Oriented Programming/01. Create a Basic JavaScript Object.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/let and var keywords.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/CODEWARS/6 kyu/function cmp(section1,section2) {.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/javascript/Object Oriented Programming/11. Iterate Over All Properties.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/javascript/Object Oriented Programming/21. Add Methods After Inheritance.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/javascript/Object Oriented Programming/10. Use Prototype Properties to Reduce Duplicate Code.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/freeCodeCamp.org/Front end libraries/React/like_button.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/CODEWARS/6 kyu/var Router = function().js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/CODEWARS/6 kyu/Object.deepFreeze = function (object) {.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/CODEWARS/6 kyu/function OnceNamedOne(first, last) {.js",
+		"/C/Users/CompuStore/Documents/LUIGGY/PROGRAMACION/WEB DEVELOPMENT/CODEWARS/6 kyu/function AtbashCipher(abc) {.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".gitignore.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
