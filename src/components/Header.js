@@ -11,8 +11,8 @@ import { Provider, connect } from 'react-redux';
 const FETCH_DATA = 'FETCH_DATA';
 //actions
 const initialState = {
-	quote: '',
-	author: '',
+	quote: 'hhhh',
+	author: 'dddddd',
 }
 
 const reducer = (state=initialState, action) => {
@@ -30,13 +30,13 @@ const reducer = (state=initialState, action) => {
 const store = createStore(reducer);
 
 //store.dispatch({ type: FETCH_DATA })
-fetch('http://quotes.stormconsultancy.co.uk/random.json')
+/*fetch('http://quotes.stormconsultancy.co.uk/random.json')
 		.then(res => res.json())
 		.then(json => {
 			const {quote, author} = json
 			console.log(json)
 			store.dispatch({ type: FETCH_DATA, quote: quote, author: author})
-		})
+		})*/
 //react
 const Comp = ({state, fetchNewQuote}) => {
 	const {quote, author} = state
