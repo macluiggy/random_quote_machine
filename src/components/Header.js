@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 //import './scss/header.scss';
 import axios from 'axios';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider, connect } from 'react-redux';
 import thunk from 'redux-thunk';
-import logger from 'redux-logger'
+//import logger from 'redux-logger'
 
 
 
@@ -19,7 +19,7 @@ const fetchData = (author, quote) => {
 			quote: quote,
 		}
 }
-const handleAsync = (dispatch) => {
+const handleAsync = () => {
 	return function (dispatch) {
 		console.log(`log message`)
 		axios.get('http://quotes.stormconsultancy.co.uk/random.json')
@@ -30,8 +30,8 @@ const handleAsync = (dispatch) => {
 	}
 }
 const initialState = {
-	quote: 'hhhh',
-	author: 'dddddd',
+	quote: '',
+	author: '',
 }
 
 const reducer = (state=initialState, action) => {
@@ -60,6 +60,10 @@ const store = createStore(reducer, applyMiddleware(thunk));
 const Comp = ({state, fetchNewQuote}) => {
 	const {quote, author} = state
 	const newQuote = () => fetchNewQuote()
+
+	useEffect(() => {
+		fetchNewQuote()
+	}, [fetchNewQuote])
 	return (
 		<header id='quote-box'>
 	      <div id='quote-text'>
