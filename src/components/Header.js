@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 //import './scss/header.scss';
 import axios from 'axios';
 import { createStore, applyMiddleware } from 'redux';
@@ -59,6 +59,7 @@ const store = createStore(reducer, applyMiddleware(ReduxThunk.default));
 		})*/
 //react
 const Comp = ({state, fetchNewQuote}) => {
+	const [data, setData] = useState(initialState)
 	const {quote, author} = state
 	const newQuote = () => fetchNewQuote()
 
