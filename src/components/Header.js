@@ -1,6 +1,6 @@
 import React from 'react';
 //import './scss/header.scss';
-import axios from 'axios';
+//import axios from 'axios';
 import { createStore } from 'redux';
 import { Provider, connect } from 'react-redux';
 
