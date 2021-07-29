@@ -3,7 +3,8 @@ import React, { useEffect } from 'react';
 import axios from 'axios';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider, connect } from 'react-redux';
-import thunk from 'redux-thunk';
+//import thunk from 'redux-thunk';
+import thunkMiddleware from 'redux-thunk'
 //import logger from 'redux-logger'
 
 
@@ -30,8 +31,8 @@ const handleAsync = () => {
 	}
 }
 const initialState = {
-	quote: '',
-	author: '',
+	quote: 'aaa',
+	author: 'aaaaa',
 }
 
 const reducer = (state=initialState, action) => {
@@ -46,7 +47,7 @@ const reducer = (state=initialState, action) => {
 	}
 }
 
-const store = createStore(reducer, applyMiddleware(thunk));
+const store = createStore(reducer, applyMiddleware(thunkMiddleware));
 
 //store.dispatch({ type: FETCH_DATA })
 /*fetch('http://quotes.stormconsultancy.co.uk/random.json')
