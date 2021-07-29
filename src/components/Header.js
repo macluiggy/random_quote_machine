@@ -20,18 +20,18 @@ const fetchData = (author, quote) => {
 			quote: quote,
 		}
 }
-/*const handleAsync = () => {
-	return function (dispatch) {
+const handleAsync = () => {
+	return function () {
 		console.log(`log message`)
 		axios.get('http://quotes.stormconsultancy.co.uk/random.json')
 				.then(res => {
 					const {author, quote} = res.data;
-					dispatch(fetchData(author, quote))
+					store.dispatch(fetchData(author, quote))
 				})
 	}
-}*/
+}
 const initialState = {
-	quote: 'aaa',
+	quote: 'aaa33333',
 	author: 'aaaaa',
 }
 
@@ -63,13 +63,8 @@ const Comp = ({state, fetchNewQuote}) => {
 	const newQuote = () => fetchNewQuote()
 
 	useEffect(() => {
-		fetch('http://quotes.stormconsultancy.co.uk/random.json')
-			.then(r => r.json())
-			.then(j => {
-				const {quote, author} = j
-				store.dispatch(fetchData(author, quote));
-			})
-	}, [])
+		fetchNewQuote()
+	}, [fetchNewQuote])
 	return (
 		<header id='quote-box'>
 	      <div id='quote-text'>
@@ -102,12 +97,17 @@ const mapDispatchToProps = dispatch => {
 				author: author,
 				quote: quote,
 			})*/
-			fetch('http://quotes.stormconsultancy.co.uk/random.json')
+			/*fetch('http://quotes.stormconsultancy.co.uk/random.json')
 				.then(res => res.json())
 				.then(json => {
 					const { author, quote } = json;
-					store.dispatch(fetchData(author, quote))
-				})
+					dispatch({
+						type: FETCH_DATA,
+						author: author,
+						quote: quote,
+					})
+				})*/
+			handleAsync()()
 		},
 	}
 }
@@ -122,3 +122,4 @@ const Header = () => {
 }
 
 export default Header
+
