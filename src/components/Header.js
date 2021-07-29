@@ -30,11 +30,11 @@ const reducer = (state=initialState, action) => {
 const store = createStore(reducer);
 
 //store.dispatch({ type: FETCH_DATA })
-axios.get('http://quotes.stormconsultancy.co.uk/random.json')
-		.then(res => {
-			
-			const {quote, author} = res.data
-			//console.log(quote)
+fetch('http://quotes.stormconsultancy.co.uk/random.json')
+		.then(res => res.json())
+		.then(json => {
+			const {quote, author} = json
+			console.log(json)
 			store.dispatch({ type: FETCH_DATA, quote: quote, author: author})
 		})
 //react
@@ -64,15 +64,25 @@ const mapStateToProps = state => {
 }
 const mapDispatchToProps = dispatch => {
 	return {
-		fetchNewQuote: async () => {
-			let res = await axios.get('http://quotes.stormconsultancy.co.uk/random.json');
+		fetchNewQuote: () => {
+			/*let res = await axios.get('http://quotes.stormconsultancy.co.uk/random.json');
 			let data = await res.data
 			const {author, quote} = data;
 			dispatch({
 				type: FETCH_DATA,
 				author: author,
 				quote: quote,
-			})
+			})*/
+			fetch('http://quotes.stormconsultancy.co.uk/random.json')
+				.then(res => res.json())
+				.then(json => {
+					const { author, quote } = json;
+					dispatch({
+						type: FETCH_DATA,
+						author: author,
+						quote: quote,
+					})
+				})
 		},
 	}
 }
