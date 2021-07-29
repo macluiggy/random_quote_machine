@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 //import './scss/header.scss';
 import axios from 'axios';
+import quotes from './quotes.json'
 import { createStore, applyMiddleware } from 'redux';
 import { Provider, connect } from 'react-redux';
 //import thunk from 'redux-thunk';
@@ -9,7 +10,9 @@ var ReduxThunk = require('redux-thunk')
 
 
 
+console.log(quotes.length)
 
+const getRandomNumber = () => Math.floor(Math.random() * 102 + 1)
 //redux
 const FETCH_DATA = 'FETCH_DATA';
 //actions
@@ -20,19 +23,11 @@ const fetchData = (author, quote) => {
 			quote: quote,
 		}
 }
-const handleAsync = () => {
-	return function () {
-		console.log(`log message`)
-		axios.get('http://quotes.stormconsultancy.co.uk/random.json')
-				.then(res => {
-					const {author, quote} = res.data;
-					store.dispatch(fetchData(author, quote))
-				})
-	}
-}
+
+let rN = getRandomNumber()
 const initialState = {
-	quote: 'aaa33333',
-	author: 'aaaaa',
+	quote: quotes[rN].quote,
+	author: quotes[rN].author,
 }
 
 const reducer = (state=initialState, action) => {
@@ -47,25 +42,20 @@ const reducer = (state=initialState, action) => {
 	}
 }
 
-const store = createStore(reducer, applyMiddleware(ReduxThunk.default));
+const store = createStore(reducer);
 
-//store.dispatch({ type: FETCH_DATA })
-/*fetch('http://quotes.stormconsultancy.co.uk/random.json')
-		.then(res => res.json())
-		.then(json => {
-			const {quote, author} = json
-			console.log(json)
-			store.dispatch({ type: FETCH_DATA, quote: quote, author: author})
-		})*/
+
 //react
 const Comp = ({state, fetchNewQuote}) => {
-	const [data, setData] = useState(initialState)
 	const {quote, author} = state
-	const newQuote = () => fetchNewQuote()
+	const newQuote = () => {
+
+	}
 
 	useEffect(() => {
-		fetchNewQuote()
-	}, [fetchNewQuote])
+		console.log(`useEffect`)
+		//fetchNewQuote()
+	}, [])
 	return (
 		<header id='quote-box'>
 	      <div id='quote-text'>
@@ -89,26 +79,8 @@ const mapStateToProps = state => {
 }
 const mapDispatchToProps = dispatch => {
 	return {
-		fetchNewQuote: () => {
-			/*let res = await axios.get('http://quotes.stormconsultancy.co.uk/random.json');
-			let data = await res.data
-			const {author, quote} = data;
-			dispatch({
-				type: FETCH_DATA,
-				author: author,
-				quote: quote,
-			})*/
-			/*fetch('http://quotes.stormconsultancy.co.uk/random.json')
-				.then(res => res.json())
-				.then(json => {
-					const { author, quote } = json;
-					dispatch({
-						type: FETCH_DATA,
-						author: author,
-						quote: quote,
-					})
-				})*/
-			handleAsync()()
+		fetchNewQuote: (data) => {
+			dispatch()
 		},
 	}
 }
