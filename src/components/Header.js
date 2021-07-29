@@ -1,8 +1,10 @@
 import React from 'react';
 //import './scss/header.scss';
-//import axios from 'axios';
-import { createStore } from 'redux';
+import axios from 'axios';
+import { createStore, applyMiddleware } from 'redux';
 import { Provider, connect } from 'react-redux';
+import thunk from 'redux-thunk';
+import logger from 'redux-logger'
 
 
 
@@ -10,6 +12,23 @@ import { Provider, connect } from 'react-redux';
 //redux
 const FETCH_DATA = 'FETCH_DATA';
 //actions
+const fetchData = (author, quote) => {
+	return {
+			type: FETCH_DATA,
+			author: author,
+			quote: quote,
+		}
+}
+const handleAsync = (dispatch) => {
+	return function (dispatch) {
+		console.log(`log message`)
+		axios.get('http://quotes.stormconsultancy.co.uk/random.json')
+				.then(res => {
+					const {author, quote} = res.data;
+					dispatch(fetchData(author, quote))
+				})
+	}
+}
 const initialState = {
 	quote: 'hhhh',
 	author: 'dddddd',
@@ -27,7 +46,7 @@ const reducer = (state=initialState, action) => {
 	}
 }
 
-const store = createStore(reducer);
+const store = createStore(reducer, applyMiddleware(thunk));
 
 //store.dispatch({ type: FETCH_DATA })
 /*fetch('http://quotes.stormconsultancy.co.uk/random.json')
@@ -73,7 +92,7 @@ const mapDispatchToProps = dispatch => {
 				author: author,
 				quote: quote,
 			})*/
-			fetch('http://quotes.stormconsultancy.co.uk/random.json')
+			/*fetch('http://quotes.stormconsultancy.co.uk/random.json')
 				.then(res => res.json())
 				.then(json => {
 					const { author, quote } = json;
@@ -82,7 +101,8 @@ const mapDispatchToProps = dispatch => {
 						author: author,
 						quote: quote,
 					})
-				})
+				})*/
+			handleAsync()(dispatch)
 		},
 	}
 }
