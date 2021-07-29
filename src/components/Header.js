@@ -16,11 +16,11 @@ const getRandomNumber = () => Math.floor(Math.random() * 102 + 1)
 //redux
 const FETCH_DATA = 'FETCH_DATA';
 //actions
-const fetchData = (author, quote) => {
+const fetchData = (rN) => {
 	return {
 			type: FETCH_DATA,
-			author: author,
-			quote: quote,
+			quote: quotes[rN].quote,
+			author: quotes[rN].author,
 		}
 }
 
@@ -49,7 +49,7 @@ const store = createStore(reducer);
 const Comp = ({state, fetchNewQuote}) => {
 	const {quote, author} = state
 	const newQuote = () => {
-
+		fetchNewQuote()
 	}
 
 	useEffect(() => {
@@ -79,8 +79,8 @@ const mapStateToProps = state => {
 }
 const mapDispatchToProps = dispatch => {
 	return {
-		fetchNewQuote: (data) => {
-			dispatch()
+		fetchNewQuote: () => {
+			dispatch(fetchData(getRandomNumber()))
 		},
 	}
 }
