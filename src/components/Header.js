@@ -12,7 +12,7 @@ var ReduxThunk = require('redux-thunk')
 
 console.log(quotes.length)
 
-const getRandomNumber = () => Math.floor(Math.random() * 1802 + 1)
+const getRandomNumber = () => Math.floor(Math.random() * 102 + 1)
 //redux
 const FETCH_DATA = 'FETCH_DATA';
 //actions
