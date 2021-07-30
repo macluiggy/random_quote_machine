@@ -1,6 +1,7 @@
 import quotes from '../components/quotes.json'
 import { createStore } from 'redux';
 import { getRandomNumber, getRandomColor } from '../functions'
+
 //redux
 const FETCH_DATA = 'FETCH_DATA';
 //actions
@@ -27,6 +28,7 @@ export const quotesReducer =  (state=initialState, action) => {
 				quote: action.quote,
 				author: action.author,
 				color: action.color,
+				c: action.c
 			}
 		default:
 			return state;

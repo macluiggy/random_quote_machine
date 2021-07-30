@@ -32,7 +32,8 @@ const Header = ({state, fetchNewQuote}) => {
 		}}>
 	      <div id='wrapper' >
 	      	<div id='quote-text'>
-		        <span id='text' style={{
+	      		<i class="fa fa-quote-left"></i>
+		        <span id='text' className='fade-in' style={{
 		        	transition: 'color 0.5s ease',
 		        }} >{quote}</span>
 		    </div>

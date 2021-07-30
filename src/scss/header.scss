@@ -1,7 +1,7 @@
 @import 'mixins';
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
 header {
-	@include border(red);
+	//@include border(red);
 	text-align: center;
 	vertical-align: middle;
 	height: 100vh;
@@ -18,12 +18,32 @@ header {
 		background-color: white;
 		border-radius: 0.5em;
 		//color: transparent;
+		@media screen and (min-width: 900px) {
+			width: 30%;
+		}
 		#quote-text {
 			//@include border(blue);
 			font-size: 1.5em;
 			font-weight: 500;
 			margin-bottom: 1em;
 			//color: transparent;
+			display: flex;
+			position: relative;
+			opacity: 1;
+			transition: opacity 1s;
+		}
+		.fade-in {
+			animation-name: fadeOut;
+			animation-duration: 1s;
+			display: none !important;
+		}
+		@keyframes fadeOut {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
 		}
 		#quote-author {
 			//@include border(red);
