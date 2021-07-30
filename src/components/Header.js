@@ -11,7 +11,7 @@ import {
 	} from '../reducers/quotesReducer'
 
 
-console.log(quotes.length)
+//console.log(quotes.length)
 
 //react
 const Header = ({state, fetchNewQuote}) => {
@@ -25,17 +25,36 @@ const Header = ({state, fetchNewQuote}) => {
 		//fetchNewQuote()
 	}, [])
 	return (
-		<header id='quote-box' style={{backgroundColor: color}}>
-	      <div id='wrapper'  >
+		<header id='quote-box' style={{
+			backgroundColor: color,
+			color: color,
+			transition: 'background-color 0.5s ease',
+		}}>
+	      <div id='wrapper' >
 	      	<div id='quote-text'>
-		        <span id='text' >{quote}</span>
+		        <span id='text' style={{
+		        	transition: 'color 0.5s ease',
+		        }} >{quote}</span>
 		    </div>
 		    <div id='quote-author'>
-		        <span id='author'>{author}</span>
+		        <span id='author'>- {author}</span>
 		    </div>
-		    <div className='buttons'>
-		        <button id='new-quote' onClick={newQuote} >New quote</button>
-		        <a target='_blank' href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text="${quote}" ${author}`} id='tweet-quote'>twiter</a>
+		    <div className='buttons' >
+		        <button 
+		        id='new-quote' 
+		        onClick={newQuote}
+		        style={{
+		        	backgroundColor: color,
+		        	transition: 'background-color 0.5s ease',
+		        }} >New quote</button>
+		        <a 
+		        target='_blank' 
+		        href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text="${quote}" ${author}`} 
+		        id='tweet-quote'
+		        style={{
+		        	backgroundColor: color,
+		        	transition: 'background-color 0.5s ease',
+		        }} ><i class="fa fa-twitter"></i></a>
  			</div>
 	      </div>
 	    </header>
