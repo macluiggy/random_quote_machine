@@ -28,14 +28,7 @@ header {
 			margin-bottom: 1em;
 			//color: transparent;
 			display: flex;
-			position: relative;
-			opacity: 1;
-			transition: opacity 1s;
-		}
-		.fade-in {
-			animation-name: fadeOut;
-			animation-duration: 1s;
-			display: none !important;
+			animation: fadeOut 1s;
 		}
 		@keyframes fadeOut {
 			0% {

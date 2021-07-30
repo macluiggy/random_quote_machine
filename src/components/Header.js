@@ -15,6 +15,7 @@ import {
 
 //react
 const Header = ({state, fetchNewQuote}) => {
+	const [c, setC] = useState('.fade-in')
 	const {quote, author, color} = state
 	const newQuote = () => {
 		fetchNewQuote()
@@ -33,7 +34,7 @@ const Header = ({state, fetchNewQuote}) => {
 	      <div id='wrapper' >
 	      	<div id='quote-text'>
 	      		<i class="fa fa-quote-left"></i>
-		        <span id='text' className='fade-in' style={{
+		        <span id='text' style={{
 		        	transition: 'color 0.5s ease',
 		        }} >{quote}</span>
 		    </div>
